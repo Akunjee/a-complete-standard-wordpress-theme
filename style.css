@@ -1,0 +1,64 @@
+/*
+Theme Name: muliti
+Theme URI: https://muliti.com
+Author: Taufik
+Author URI: https://taufik.org/
+Description: a mulitpurpose theme
+Requires at least: 5.3
+Tested up to: 5.9
+Requires PHP: 5.6
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: muliti
+Tags: onepage,ecommerce,woocommerce,photograpy,multipurpose
+*/
+.post-body iframe{
+	width: 100%;
+	max-height: 100px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.
+.widget ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.widget ul > li > a {
+  padding: 12px 0;
+  border-bottom: 1px solid #e7e7e7;
+  letter-spacing: 1px;
+  color: #494e53;
+}
+.widget ul > li > span {
+  display: block;
+  color: #79818a;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.widget .tagcloud a {
+  display: block;
+  float: left;
+  padding: 10px 15px;
+  border: 1px solid #191b1d;
+  margin: 0 10px 10px 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  font-weight: 500;
+}
+.widget .tagcloud a:hover {
+  background-color: #EF2D56;
+  border-color: #EF2D56;
+  color: #fff;
+}
+.widget .tagcloud{
+	overflow: hidden;
+}
+.widget .menu-item{
+  float: none;
+}
